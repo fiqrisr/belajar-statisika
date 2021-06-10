@@ -1,0 +1,14 @@
+---
+layout : base.njk
+---
+
+<header>
+	<h1>wafiq</h1>
+	{% if site.theme_config.show_description %}
+		<p>{{ site.description }}</p>
+	{% endif%}
+</header>
+
+{% include '../partials/menu_item.njk' %}
+
+{{ content | safe }}

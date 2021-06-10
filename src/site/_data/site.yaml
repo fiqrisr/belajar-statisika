@@ -1,0 +1,7 @@
+title: Wafiq Nurhaliza
+description: wafiq's blog
+lang: en
+theme_config:
+  appearance: "auto"
+  back_home_text: ".."
+  show_description: false

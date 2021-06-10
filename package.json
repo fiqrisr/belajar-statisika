@@ -1,0 +1,35 @@
+{
+	"name": "wafiq-site",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"clean": "rm -rf _site",
+		"build": "yarn clean && eleventy && yarn sass",
+		"start": "concurrently 'eleventy --serve' 'yarn sass:watch'",
+		"sass": "node-sass src/styles -o _site/styles --output-style compressed",
+		"sass:watch": "yarn sass && yarn sass -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fiqrisr/wafiq-site.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/fiqrisr/wafiq-site/issues"
+	},
+	"homepage": "https://github.com/fiqrisr/wafiq-site#readme",
+	"devDependencies": {
+		"@11ty/eleventy": "^0.12.1",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^3.1.1",
+		"concurrently": "^6.2.0",
+		"js-yaml": "^4.1.0",
+		"luxon": "^1.27.0",
+		"markdown-it": "^12.0.6",
+		"markdown-it-attrs": "^4.0.0",
+		"markdown-it-footnote": "^3.0.3",
+		"node-sass": "^6.0.0"
+	}
+}
