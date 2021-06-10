@@ -11,7 +11,7 @@ module.exports = (eleventyConfig) => {
 	eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));
 
 	eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-		return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
+		return DateTime.fromJSDate(dateObj).toFormat('yyyy-LL-dd');
 	});
 
 	eleventyConfig.addFilter(
@@ -20,6 +20,7 @@ module.exports = (eleventyConfig) => {
 	);
 
 	eleventyConfig.addPassthroughCopy('src/site/admin');
+	eleventyConfig.addPassthroughCopy('src/site/assets');
 
 	const md = markdownIt({
 		breaks: true,
