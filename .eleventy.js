@@ -17,6 +17,8 @@ module.exports = (eleventyConfig) => {
 		(page, root = '/') => `${require('path').relative(page.filePathStem, root)}/`
 	);
 
+	eleventyConfig.addPassthroughCopy('src/site/admin');
+
 	const md = markdownIt({
 		breaks: true,
 		linkify: true,

@@ -7,3 +7,6 @@ entries:
         url: https://www.instagram.com/wafiqnurhaliza
       - title: Twitter
         url: https://www.twitter.com/wafiqnurhalizaa
+
+  - title: thoughts
+    post_list: true
