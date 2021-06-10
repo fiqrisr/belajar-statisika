@@ -6,10 +6,10 @@ layout: base.njk
 
 <article>
 	<p class="post-meta">
-		<time datetime="{{ page.date | htmlDateString }}">{{ page.date | htmlDateString }}</time>
+		<time datetime="{{ date | htmlDateString }}">{{ date | htmlDateString }}</time>
 	</p>
 
-	<h1>{{ page.title }}</h1>
+	<h1>{{ title }}</h1>
 
 	{{ content | safe }}
 </article>
