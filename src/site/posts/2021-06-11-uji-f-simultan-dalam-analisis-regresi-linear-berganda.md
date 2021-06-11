@@ -2,7 +2,7 @@
 layout: post.njk
 title: Uji F Simultan dalam Analisis Regresi Linear Berganda
 excerpt: Interpretasi Output Uji F Simultan dalam Analisis Regresi Linear Berganda
-date: 2021-06-11T07:50:37.533Z
+date: 2021-06-11T08:51:18.771Z
 ---
 Setelah sebelumnya kita melakukan pengujian hipotesis penelitian menggunakan metode[ analisis regresi linear berganda](https://belajarstatistika.netlify.app/posts/2021-06-10-wafiq-nurhaliza/) dengan *software* SPSS. Selanjutnya untuk interpretasi hasil analisis tersebut supaya lebih dipahami, maka perlu dilakukan uji F, uji t, dan koefisien determinasi untuk melihat kontribusi pengaruh (sumbangan efektif dan sumbangan relative) yang diberikan variabel independent (X) terhadap variabel dependent (Y).
 
