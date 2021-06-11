@@ -1,6 +1,6 @@
 site_url: https://belajarstatistika.netlify.app
 
-media_folder: "src/assets/images/uploads"
+media_folder: "src/site/assets/images/uploads"
 public_folder: "/assets/images/uploads"
 backend:
   name: git-gateway
