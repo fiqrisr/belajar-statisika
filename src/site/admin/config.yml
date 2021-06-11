@@ -18,6 +18,6 @@ collections:
           default: "post.njk",
         }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Description", name: "excerpt", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Post Body", name: "body", widget: "markdown" }

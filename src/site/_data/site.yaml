@@ -1,7 +1,7 @@
-homeTitle: wafiq
-homeDescription: Pluviophile
+homeTitle: Belajar Statistika
+homeDescription: Belajar Statistika bersama Wafiq Nurhaliza
 lang: en
 theme_config:
   appearance: "auto"
   back_home_text: ".."
-  show_description: false
+  show_description: true

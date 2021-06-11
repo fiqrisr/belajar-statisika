@@ -1,6 +1,6 @@
 ---
 title: Analisis Regresi Berganda dengan SPSS
-description: Tutorial Analisis Regresi Linear Berganda dengan SPSS 23
+excerpt: Tutorial Analisis Regresi Linear Berganda dengan SPSS 23
 date: 2021-06-11T04:51:37.747Z
 ---
 
