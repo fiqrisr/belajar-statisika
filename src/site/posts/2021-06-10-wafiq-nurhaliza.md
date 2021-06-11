@@ -3,8 +3,6 @@ title: Analisis Regresi Berganda dengan SPSS
 excerpt: Tutorial Analisis Regresi Linear Berganda dengan SPSS 23
 date: 2021-06-11T04:51:37.747Z
 ---
-## Analisis Regresi Berganda dengan SPSS
-
 Analisis regresi merupakan suatu analisis yang digunakan untuk mengetahui hubungan antara dua variabel atau lebih yang pada umumnya dinyatakan dalam persamaan matematis. analisis regresi digunakan sebagai alat untuk mengetahui hubungan antar beberapa variabel bebas terhadap variabel terikat. Analisis regresi linear berganda berfungsi untuk mengetahui pengaruh dari dua atau lebih variabel bebas (X) terhadap variabel terikat (Y).
 
 Dengan demikian, sederhananya dapat dikatakan bahwa jika kita ingin mengetahui apakah ada pengaruh antara variabel bebas (X) terhadap variabel terikat, maka dapat menggunakan analisis regresi sederhana. Sementara, jika kita ingin mengetahui pengaruh dua atau lebih variabel bebas (X) terhadap variabel terikat (Y) maka menggunakan analisis regresi linear berganda.
