@@ -31,7 +31,7 @@ Setelah mengetahui konsep dasar tentang analisis regresi linear berganda ini, se
 
 2. Kemudian, buka bagian Data View, lalu masukkan data Berat Badan (Y), Tinggi Badan (X1), dan Jam Tidur (X2) yang sudah dipersiapkan sebelumnya. Sehingga di layar akan tampak seperti gambar berikut.
 
-![Data View](/assets/images/uploads/ss-2-.png)
+![Data View](/assets/images/uploads/ss-22-.png)
 
 3. Selanjutnya, dari menu utama SPSS, pilih *Analyze – Regression – Linear.*
 
@@ -39,7 +39,7 @@ Setelah mengetahui konsep dasar tentang analisis regresi linear berganda ini, se
 
 4. Setelah itu, akan muncul kotak dengan nama “Linear Regression”, kemudian masukkan variabel Tinggi Badan dan Jam Tidur ke kotak *Independent(s)*, masukkan variabel Berat Badan ke kotak *Dependent*, pada bagian *Method* pilih *Enter*, selanjutnya klik *Statistics*…
 
-![Linear Regression Box](/assets/images/uploads/ss-4-.png)
+![Linear Regression Box](/assets/images/uploads/ss-44-.png)
 
 5. Pada bagian “Linear Regression: Statistisc”, berikan tanda centang pada *Estimates* dan *Model fit*, kemudian klik *Continue*…
 
