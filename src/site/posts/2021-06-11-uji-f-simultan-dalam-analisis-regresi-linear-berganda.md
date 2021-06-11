@@ -30,12 +30,12 @@ H1 : terdapat pengaruh yang signifikan secara simultan pada Tinggi Badan dan Jam
 
 Ada du acara yang bisa digunakan sebagai acuan atau pedoman untuk melakukan uji hipotesis dalam uji F Simultan. Pertama adalah dengan membandingkan nilai signifikan (Sig.) atau nilai probabilitas hasil output ANOVA. Kedua adalah dengan membandingkan nilai F hitung dengan nilai F tabel.
 
-#### A.	Berdasarkan Nilai Signifikan (Sig.) dari Ouptu ANOVA
+#### A.	Berdasarkan Nilai Signifikan (Sig.) dari Ouput ANOVA
 
 1. Jika nilai Sig. < 0,05, maka H0 ditolak. Artinya, terdapat pengaruh yang signifikan secara simultan pada Tinggi Badan (X1) dan Jam Tidur (X2) terhadap Berat Badan (Y).
 2. Jika nilai Sig. > 0,05, maka H0 tidak ditolak. Artinya, tidak terdapat pengaruh yang signifikan secara simultan pada Tinggi Badan (X1) dan Jam Tidur (X2) terhadap Berat Badan (Y).
 
-### B.	Berdasarkan Perbandingan Nilai F Hitung dengan F Tabel
+#### B.	Berdasarkan Perbandingan Nilai F Hitung dengan F Tabel
 
 1. Jika nilai F hitung > F tabel, maka H0 ditolak. Artinya, terdapat pengaruh yang signifikan secara simultan pada Tinggi Badan (X1) dan Jam Tidur (X2) terhadap Berat Badan (Y).
 2. Jika nilai F hitung < F tabel, maka H0 tidak ditolak. Artinya, tidak terdapat pengaruh yang signifikan secara simultan pada Tinggi Badan (X1) dan Jam Tidur (X2) terhadap Berat Badan (Y).
@@ -46,7 +46,7 @@ Ada du acara yang bisa digunakan sebagai acuan atau pedoman untuk melakukan uji 
 
 ![Tabel ANOVA](/assets/images/uploads/ss-3-.png)
 
-#### A.	Berdasarkan Nilai Signifikan (Sig.) dari Ouptu ANOVA
+#### A.	Berdasarkan Nilai Signifikan (Sig.) dari Ouput ANOVA
 
 Berdasarkan tabel  output SPSS di atas,  diketahui nilai Sig. adalah sebesar 0,064. Karena Sig. 0,064 > 0,05, maka sebagaimana dasar pengambilan keputusan dalam uji F Simutan dapat disimpulkan bahwa Tinggi Badan (X1) dan Jam Tidur (X2) tidak terdapat pengaruh yang signifikan secara simultan terhadap Berat badan (Y).
 
