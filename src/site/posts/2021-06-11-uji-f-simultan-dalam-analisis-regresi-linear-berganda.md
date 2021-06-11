@@ -6,7 +6,6 @@ date: 2021-06-11T07:50:37.533Z
 ---
 Setelah sebelumnya kita melakukan pengujian hipotesis penelitian menggunakan metode[ analisis regresi linear berganda](https://belajarstatistika.netlify.app/posts/2021-06-10-wafiq-nurhaliza/) dengan *software* SPSS. Selanjutnya untuk interpretasi hasil analisis tersebut supaya lebih dipahami, maka perlu dilakukan uji F, uji t, dan koefisien determinasi untuk melihat kontribusi pengaruh (sumbangan efektif dan sumbangan relative) yang diberikan variabel independent (X) terhadap variabel dependent (Y).
 
-
 Perbedaan antara uji F dan uji t dalam analisis regresi linear berganda adalah terletak pada makna pengaruh yang diberikan variabel X terhadap variabel Y apakah secara simultan (bersama-sama) atau parsial (sendiri-sendiri). Uji F memiliki tujuan untuk mengetahui pengaruh variabel X terhadap variabel Y secara simultan. Sedangkan uji t bertujuan untuk mengetahui pengaruh variabel X terhadap variabel Y secara parsial.
 
 ## Contoh Kasus Analisi Regresi Linear Berganda
@@ -63,4 +62,4 @@ Kesimpulan: berdasarkan kedua pembahasan dalam uji F Simultan di atas, maka dapa
 
 Setelah kita ketahui bahwa tidak terdapat pengaruh simultan, maka selanjutnya kita akan mencari berapa % pengaruh yang diberikan kedua variabel tersebut secara simultan. Adapun materi tentang artikel ini akan kita bahas pada artikel selanjutnya.
 
-Demikian pembahasan kali ini mengenai cara melakukan uji F simultan dalam analisis regresi linear berganda dengan software SPSS. Semoga bermanfaat dan terima kasih.
+Demikian pembahasan kali ini mengenai cara melakukan [uji F simultan](https://belajarstatistika.netlify.app/posts/2021-06-11-uji-f-simultan-dalam-analisis-regresi-linear-berganda/) dalam analisis regresi linear berganda dengan software SPSS. Semoga bermanfaat dan terima kasih.
