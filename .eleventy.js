@@ -3,10 +3,15 @@ const { DateTime } = require('luxon');
 const markdownIt = require('markdown-it');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginSEO = require('eleventy-plugin-seo');
+const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 
 module.exports = (eleventyConfig) => {
 	eleventyConfig.addPlugin(syntaxHighlight);
 	eleventyConfig.addPlugin(pluginSEO, require('./src/site/_data/seo.json'));
+	eleventyConfig.addPlugin(lazyImagesPlugin, {
+		transformImgPath: (imgPath) =>
+			imgPath.replace('/assets/images/', './src/site/assets/images/'),
+	});
 
 	eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));
 
