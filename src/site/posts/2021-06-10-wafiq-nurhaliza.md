@@ -21,43 +21,43 @@ Sebelum melakukan analisis regresi linear berganda, terdapat beberapa asumsi yan
 Contoh Kasus Analisi Regresi Linear Berganda
 Setelah mengetahui konsep dasar tentang analisis regresi linear berganda ini, selanjutnya kita akan masuk ke bagian cara melakukan analisis regresi linear berganda menggunakan SPSS versi 23. Sebagai contoh, kita ingin mengetahui apakah ada pengaruh variabel Tinggi Badan (X1) dan variabel Jam Tidur (X2) terhadap Berat Badan (Y). Sampel penelitian ini sebanyak 15 orang. Data diambil dari Mahasiswa laki-laki semester 3 Jurusan Sistem Informasi di Universitas Tanjungpura. Data lengkap dapat dilihat pada tabel di bawah ini.
 
-![](/assets/images/uploads/ss-8-.png)
+![Data Kasus](/assets/images/uploads/ss-8-.png)
 
 ### **Langkah-langkah Analisis Regresi Linear Berganda dengan SPSS 23**
 
 1. Buka software SPSS. Klik bagian *Variabel View*. Kemudian pada bagian Name tulis Berat Badan, Tinggi Badan, dan Jam Tidur (Gunakan tanda \_“\_*” jika terdapat spasi). Pada bagian _Decimals* dapat diubah menjadi angka 0 (jika tidak ingin ada koma pada data). Pada bagian *Label*, boleh ditulis Berat Badan (Y), Tinggi Badan (X1), dan Jam Tidur (X2). Pada bagian *Measure*, pilih *Scale*. Sehingga di layar akan tampak seperti gambar berikut.
 
-![](/assets/images/uploads/ss-1-.png)
+![Variabel View](/assets/images/uploads/ss-11-.png)
 
 2. Kemudian, buka bagian Data View, lalu masukkan data Berat Badan (Y), Tinggi Badan (X1), dan Jam Tidur (X2) yang sudah dipersiapkan sebelumnya. Sehingga di layar akan tampak seperti gambar berikut.
 
-![](/assets/images/uploads/ss-2-.png)
+![Data View](/assets/images/uploads/ss-2-.png)
 
 3. Selanjutnya, dari menu utama SPSS, pilih *Analyze – Regression – Linear.*
 
-![](/assets/images/uploads/ss-3-.png)
+![Menu Utama](/assets/images/uploads/ss-33-.png)
 
 4. Setelah itu, akan muncul kotak dengan nama “Linear Regression”, kemudian masukkan variabel Tinggi Badan dan Jam Tidur ke kotak *Independent(s)*, masukkan variabel Berat Badan ke kotak *Dependent*, pada bagian *Method* pilih *Enter*, selanjutnya klik *Statistics*…
 
-![](/assets/images/uploads/ss-4-.png)
+![Linear Regression Box](/assets/images/uploads/ss-4-.png)
 
 5. Pada bagian “Linear Regression: Statistisc”, berikan tanda centang pada *Estimates* dan *Model fit*, kemudian klik *Continue*…
 
-![](/assets/images/uploads/ss-5-.png)
+![Linear Regression: Statistics Box](/assets/images/uploads/ss-5-.png)
 
 6. Langkah terakhir adalah klik *Ok*, maka akan muncul output SPSS.
 
 ### **Output SPSS Analisis Regresi Linear Berganda**
 
-![](/assets/images/uploads/ss-6-.png)
+![Tabel Variables Entered/Removed](/assets/images/uploads/ss-6-.png)
 
 Tabel output “Variables Entered/Removed” di atas memberikan informasi tentang variabel penelitian serta metode yang digunakan dalam analisis regresi. Adapun variabel bebas yang dipakai dalam analisis ini adalah variabel Jam Tidur dan Tinggi Badan. Sementara variabel terikat adalah variabel Berat Badan. Analisis regresi menggunakan metode Enter. Tidak ada variabel yang dibuang sehingga pada kolom Variabel Removed tidak ada angkanya atay kosong.
 
-![](/assets/images/uploads/ss-7-.jpg)
+![Tabel ANOVA](/assets/images/uploads/ss-7-.jpg)
 
 Tabel “ANOVA” memberikan informasi tentang ada tidaknya pengaruh variabel Jam Tidur dan Tinggi Badan secara simultan (Bersama-sama) terhadap variabel Berat Badan. Pembahasan tentang pengaruh simultan akan dilanjutkan pada artikel berikutnya.
 
-![](/assets/images/uploads/ss-9-.png)
+![Tabel Coefficients](/assets/images/uploads/ss-9-.png)
 
 Tabel “Coefficients” memberikan informasi tentang persamaan regresi dan ada tidaknya pengaruh variabel Jam Tidur dan Tinggi Badan secara parsial (sendiri-sendiri) terhadap variabel Berat Badan. Adapun model regresi dalam analisis atau penelitian ini adalah sebagai berikut:
 
@@ -65,7 +65,7 @@ Y = β0 + β1X1 + β2X2 atau Y = -55,230 + 0,701 - 0,571
 
 Sementara, untuk mengetahui ada atau tidak pengaruh variabel Jam Tidur dan Tinggi Badan secara parsial (sendiri-sendiri) terhadap variabel Berat Badan, pembahasannya akan dilanjutkan pada artikel berikutnya.
 
-![](/assets/images/uploads/ss-10-.png)
+![Tabel Model Summary](/assets/images/uploads/ss-10-.png)
 
 Tabel “Model Summary” memberikan informasi tentang nilai koefisien determinasi, yakni kontribusi atau sumbangan pengaruh variabel Jam Tidur dan Tinggi Badan secara simultan (bersama-sama) terhadap variabel Berat Badan. Pembahasan tentang tabel di atas dapat disimak pada artikel berikutnya.
 
