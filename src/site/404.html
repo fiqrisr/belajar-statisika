@@ -1,0 +1,61 @@
+---
+title: Ups! Tidak Ada Apa-Apa Di Sini
+permalink: 404.html
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		html,
+		body {
+			background: white;
+		}
+
+		html {
+			height: 100%;
+		}
+
+		body {
+			color: black;
+			font-family: monospace;
+			font-size: 16px;
+			line-height: 1.4;
+			margin: 0;
+			min-height: 100%;
+		}
+
+		h1 {
+			font-size: 1.7em;
+		}
+
+		p {
+			margin: 1rem 0;
+		}
+
+		.post-meta {
+			text-align: right;
+		}
+
+		.w {
+			width: fit-content;
+			max-width: 640px;
+			margin: 0 auto;
+			padding: 4rem 2rem;
+		}
+	</style>
+	<title>{{ title }}</title>
+</head>
+
+<body>
+	<main class="page-content" aria-label="Content">
+		<div class="w">
+			<h1>{{ title }}</h1>
+			<p><a href="{{ '/' | url }}">Kembali ke halaman utama</a></p>
+		</div>
+	</main>
+</body>
+
+</html>
