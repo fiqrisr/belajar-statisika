@@ -13,10 +13,10 @@ Dengan demikian, sederhananya dapat dikatakan bahwa jika kita ingin mengetahui a
 
 Sebelum melakukan analisis regresi linear berganda, terdapat beberapa asumsi yang harus terpenuhi dalam model regresi. Asumsi-asumsi ini dibuktikan melalui beberapa uji, yakni uji asumsi klasik. uji asumsi klasik meliputi:
 
-1. <span style="color:red">*Uji normalitas*</span>, dimana asumsi yang harus dipenuhi adalah model regresi berdistribusi normal.
-2. <span style="color:red">*Uji heterokedastisikas*</span>, dimana asumsi yang harus dipenuhi adalah model regresi tidak homoskedastisitas (heterokedastisitas).
-3. <span style="color:red">*Uji autokorelasi*</span>, dimana asumsi yang harus dipenuhi adalah galat pada model regresi tidak mengalami autokorelasi (khusus untuk data time series).
-4. <span style="color:red">*Uji multikolinearitas*</span>, dimana asumsi yang harus dipenuhi adalah pada model regresi tidak terjadi masalah multikolinearitas.
+1. *Uji normalitas*, dimana asumsi yang harus dipenuhi adalah model regresi berdistribusi normal.
+2. *Uji heterokedastisikas*, dimana asumsi yang harus dipenuhi adalah model regresi tidak homoskedastisitas (heterokedastisitas).
+3. *Uji autokorelasi*, dimana asumsi yang harus dipenuhi adalah galat pada model regresi tidak mengalami autokorelasi (khusus untuk data time series).
+4. *Uji multikolinearitas*, dimana asumsi yang harus dipenuhi adalah pada model regresi tidak terjadi masalah multikolinearitas.
 
 ### **Theorema Model Regresi : Yi=β0 + β1X1 + β2X2 + ⋯ + βiXi + εi**
 
