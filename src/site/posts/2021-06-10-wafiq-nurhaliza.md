@@ -77,4 +77,4 @@ Tabel “Model Summary” memberikan informasi tentang nilai koefisien determina
 
 
 
-Demikian panduan tentang Tutorial Analisis Regresi Linear Berganda dengan SPSS yang dapat saya tulis pada kesempatan kali ini. Semoga bermanfaat dan terima kasih.
+Demikian panduan tentang Tutorial [Analisis Regresi Linear Berganda dengan SPSS](https://wafiqnurhaliza.netlify.app/posts/2021-06-10-wafiq-nurhaliza/) yang dapat saya tulis pada kesempatan kali ini. Semoga bermanfaat dan terima kasih.
