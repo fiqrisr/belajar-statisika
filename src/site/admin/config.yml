@@ -1,3 +1,5 @@
+site_url: https://belajarstatistika.netlify.app
+
 media_folder: "src/assets/images/uploads"
 public_folder: "/assets/images/uploads"
 backend:
