@@ -8,7 +8,7 @@ Setelah sebelumnya kita melakukan pengujian hipotesis penelitian menggunakan met
 
 Perbedaan antara uji F dan uji t dalam analisis regresi linear berganda adalah terletak pada makna pengaruh yang diberikan variabel X terhadap variabel Y apakah secara simultan (bersama-sama) atau parsial (sendiri-sendiri). Uji F memiliki tujuan untuk mengetahui pengaruh variabel X terhadap variabel Y secara simultan. Sedangkan uji t bertujuan untuk mengetahui pengaruh variabel X terhadap variabel Y secara parsial.
 
-## Contoh Kasus Analisi Regresi Linear Berganda
+## Contoh Kasus Analisis Regresi Linear Berganda
 
 Kasus yang digunakan untuk uji F simultan adalah sama seperti artikel sebelumnya, yakni kasus saat membahas tutorial “Analisis Regresi Linear Berganda”. Dalam artikel tersebut, kita ingin menguji apakah terdapat pengaruh antara Tinggi Badan dan Jam Tidur terhadap Berat Badan.
 
