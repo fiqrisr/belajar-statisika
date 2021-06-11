@@ -3,54 +3,53 @@ title: Analisis Regresi Berganda dengan SPSS
 excerpt: Tutorial Analisis Regresi Linear Berganda dengan SPSS 23
 date: 2021-06-11T04:51:37.747Z
 ---
-
-**Analisis Regresi Berganda dengan SPSS**
+## Analisis Regresi Berganda dengan SPSS
 
 Analisis regresi merupakan suatu analisis yang digunakan untuk mengetahui hubungan antara dua variabel atau lebih yang pada umumnya dinyatakan dalam persamaan matematis. analisis regresi digunakan sebagai alat untuk mengetahui hubungan antar beberapa variabel bebas terhadap variabel terikat. Analisis regresi linear berganda berfungsi untuk mengetahui pengaruh dari dua atau lebih variabel bebas (X) terhadap variabel terikat (Y).
 
 Dengan demikian, sederhananya dapat dikatakan bahwa jika kita ingin mengetahui apakah ada pengaruh antara variabel bebas (X) terhadap variabel terikat, maka dapat menggunakan analisis regresi sederhana. Sementara, jika kita ingin mengetahui pengaruh dua atau lebih variabel bebas (X) terhadap variabel terikat (Y) maka menggunakan analisis regresi linear berganda.
 
-**Asumsi Analisis Regresi Linear Berganda**
+## **Asumsi Analisis Regresi Linear Berganda**
 
 Sebelum melakukan analisis regresi linear berganda, terdapat beberapa asumsi yang harus terpenuhi dalam model regresi. Asumsi-asumsi ini dibuktikan melalui beberapa uji, yakni uji asumsi klasik. uji asumsi klasik meliputi:
 
-1. _Uji normalitas_, dimana asumsi yang harus dipenuhi adalah model regresi berdistribusi normal.
-2. _Uji heterokedastisikas_, dimana asumsi yang harus dipenuhi adalah model regresi tidak homoskedastisitas (heterokedastisitas).
-3. _Uji autokorelasi_, dimana asumsi yang harus dipenuhi adalah galat pada model regresi tidak mengalami autokorelasi (khusus untuk data time series).
-4. _Uji multikolinearitas_, dimana asumsi yang harus dipenuhi adalah pada model regresi tidak terjadi masalah multikolinearitas.
+1. <span style="color:red">*Uji normalitas*</span>, dimana asumsi yang harus dipenuhi adalah model regresi berdistribusi normal.
+2. <span style="color:red">*Uji heterokedastisikas*</span>, dimana asumsi yang harus dipenuhi adalah model regresi tidak homoskedastisitas (heterokedastisitas).
+3. <span style="color:red">*Uji autokorelasi*</span>, dimana asumsi yang harus dipenuhi adalah galat pada model regresi tidak mengalami autokorelasi (khusus untuk data time series).
+4. <span style="color:red">*Uji multikolinearitas*</span>, dimana asumsi yang harus dipenuhi adalah pada model regresi tidak terjadi masalah multikolinearitas.
 
-**Theorema Model Regresi : Yi=β0 + β1X1 + β2X2 + ⋯ + βiXi + εi**
+### **Theorema Model Regresi : Yi=β0 + β1X1 + β2X2 + ⋯ + βiXi + εi**
 
 Contoh Kasus Analisi Regresi Linear Berganda
 Setelah mengetahui konsep dasar tentang analisis regresi linear berganda ini, selanjutnya kita akan masuk ke bagian cara melakukan analisis regresi linear berganda menggunakan SPSS versi 23. Sebagai contoh, kita ingin mengetahui apakah ada pengaruh variabel Tinggi Badan (X1) dan variabel Jam Tidur (X2) terhadap Berat Badan (Y). Sampel penelitian ini sebanyak 15 orang. Data diambil dari Mahasiswa laki-laki semester 3 Jurusan Sistem Informasi di Universitas Tanjungpura. Data lengkap dapat dilihat pada tabel di bawah ini.
 
 ![](/assets/images/uploads/ss-8-.png)
 
-**Langkah-langkah Analisis Regresi Linear Berganda dengan SPSS 23**
+### **Langkah-langkah Analisis Regresi Linear Berganda dengan SPSS 23**
 
-Buka software SPSS. Klik bagian _Variabel View_. Kemudian pada bagian Name tulis Berat Badan, Tinggi Badan, dan Jam Tidur (Gunakan tanda \_“\__” jika terdapat spasi). Pada bagian \_Decimals_ dapat diubah menjadi angka 0 (jika tidak ingin ada koma pada data). Pada bagian _Label_, boleh ditulis Berat Badan (Y), Tinggi Badan (X1), dan Jam Tidur (X2). Pada bagian _Measure_, pilih _Scale_. Sehingga di layar akan tampak seperti gambar berikut.
+1. Buka software SPSS. Klik bagian *Variabel View*. Kemudian pada bagian Name tulis Berat Badan, Tinggi Badan, dan Jam Tidur (Gunakan tanda \_“\_*” jika terdapat spasi). Pada bagian _Decimals* dapat diubah menjadi angka 0 (jika tidak ingin ada koma pada data). Pada bagian *Label*, boleh ditulis Berat Badan (Y), Tinggi Badan (X1), dan Jam Tidur (X2). Pada bagian *Measure*, pilih *Scale*. Sehingga di layar akan tampak seperti gambar berikut.
 
 ![](/assets/images/uploads/ss-1-.png)
 
-Kemudian, buka bagian Data View, lalu masukkan data Berat Badan (Y), Tinggi Badan (X1), dan Jam Tidur (X2) yang sudah dipersiapkan sebelumnya. Sehingga di layar akan tampak seperti gambar berikut.
+2. Kemudian, buka bagian Data View, lalu masukkan data Berat Badan (Y), Tinggi Badan (X1), dan Jam Tidur (X2) yang sudah dipersiapkan sebelumnya. Sehingga di layar akan tampak seperti gambar berikut.
 
 ![](/assets/images/uploads/ss-2-.png)
 
-Selanjutnya, dari menu utama SPSS, pilih _Analyze – Regression – Linear._
+3. Selanjutnya, dari menu utama SPSS, pilih *Analyze – Regression – Linear.*
 
 ![](/assets/images/uploads/ss-3-.png)
 
-Setelah itu, akan muncul kotak dengan nama “Linear Regression”, kemudian masukkan variabel Tinggi Badan dan Jam Tidur ke kotak _Independent(s)_, masukkan variabel Berat Badan ke kotak _Dependent_, pada bagian _Method_ pilih _Enter_, selanjutnya klik _Statistics_…
+4. Setelah itu, akan muncul kotak dengan nama “Linear Regression”, kemudian masukkan variabel Tinggi Badan dan Jam Tidur ke kotak *Independent(s)*, masukkan variabel Berat Badan ke kotak *Dependent*, pada bagian *Method* pilih *Enter*, selanjutnya klik *Statistics*…
 
 ![](/assets/images/uploads/ss-4-.png)
 
-Pada bagian “Linear Regression: Statistisc”, berikan tanda centang pada _Estimates_ dan _Model fit_, kemudian klik _Continue_…
+5. Pada bagian “Linear Regression: Statistisc”, berikan tanda centang pada *Estimates* dan *Model fit*, kemudian klik *Continue*…
 
 ![](/assets/images/uploads/ss-5-.png)
 
-Langkah terakhir adalah klik _Ok_, maka akan muncul output SPSS.
+6. Langkah terakhir adalah klik *Ok*, maka akan muncul output SPSS.
 
-**Output SPSS Analisis Regresi Linear Berganda**
+### **Output SPSS Analisis Regresi Linear Berganda**
 
 ![](/assets/images/uploads/ss-6-.png)
 
