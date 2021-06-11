@@ -16,9 +16,10 @@ Sebelum melakukan analisis regresi linear berganda, terdapat beberapa asumsi yan
 3. *Uji autokorelasi*, dimana asumsi yang harus dipenuhi adalah galat pada model regresi tidak mengalami autokorelasi (khusus untuk data time series).
 4. *Uji multikolinearitas*, dimana asumsi yang harus dipenuhi adalah pada model regresi tidak terjadi masalah multikolinearitas.
 
-### **Theorema Model Regresi : Yi=β0 + β1X1 + β2X2 + ⋯ + βiXi + εi**
+#### **Theorema Model Regresi : Yi=β0 + β1X1 + β2X2 + ⋯ + βiXi + εi**
 
-Contoh Kasus Analisi Regresi Linear Berganda
+## Contoh Kasus Analisis Regresi Linear Berganda
+
 Setelah mengetahui konsep dasar tentang analisis regresi linear berganda ini, selanjutnya kita akan masuk ke bagian cara melakukan analisis regresi linear berganda menggunakan SPSS versi 23. Sebagai contoh, kita ingin mengetahui apakah ada pengaruh variabel Tinggi Badan (X1) dan variabel Jam Tidur (X2) terhadap Berat Badan (Y). Sampel penelitian ini sebanyak 15 orang. Data diambil dari Mahasiswa laki-laki semester 3 Jurusan Sistem Informasi di Universitas Tanjungpura. Data lengkap dapat dilihat pada tabel di bawah ini.
 
 ![Data Kasus](/assets/images/uploads/ss-0.png)
