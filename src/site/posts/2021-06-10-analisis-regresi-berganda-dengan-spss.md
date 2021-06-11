@@ -55,7 +55,7 @@ Tabel output “Variables Entered/Removed” di atas memberikan informasi tentan
 
 ![Tabel ANOVA](/assets/images/uploads/ss-8.jpg)
 
-Tabel “ANOVA” memberikan informasi tentang ada tidaknya pengaruh variabel Jam Tidur dan Tinggi Badan secara simultan (Bersama-sama) terhadap variabel Berat Badan. Pembahasan tentang pengaruh simultan akan dilanjutkan pada artikel berikutnya.
+Tabel “ANOVA” memberikan informasi tentang ada tidaknya pengaruh variabel Jam Tidur dan Tinggi Badan secara simultan (Bersama-sama) terhadap variabel Berat Badan. Pembahasan tentang pengaruh simultan akan dilanjutkan pada artikel [Uji F Simultan dalam Analisis Regresi Linear Berganda](https://belajarstatistika.netlify.app/posts/2021-06-11-uji-f-simultan-dalam-analisis-regresi-linear-berganda/).
 
 ![Tabel Coefficients](/assets/images/uploads/ss-9.png)
 
