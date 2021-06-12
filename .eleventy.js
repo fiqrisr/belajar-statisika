@@ -4,6 +4,7 @@ const markdownIt = require('markdown-it');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginSEO = require('eleventy-plugin-seo');
 const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
+const typesetPlugin = require('eleventy-plugin-typeset');
 
 module.exports = (eleventyConfig) => {
 	eleventyConfig.addPlugin(syntaxHighlight);
@@ -12,6 +13,12 @@ module.exports = (eleventyConfig) => {
 		transformImgPath: (imgPath) =>
 			imgPath.replace('/assets/images/', './src/site/assets/images/'),
 	});
+	eleventyConfig.addPlugin(
+		typesetPlugin({
+			only: '.article-body',
+			disable: ['hyphenate'],
+		})
+	);
 
 	eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));
 
